@@ -1,0 +1,6 @@
+- name: Assert params
+  assert:
+    that:
+    - var1 is defined
+  tags:
+  - always
